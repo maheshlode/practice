@@ -40,8 +40,6 @@ function TextForm(props) {
         //console.log("On Change");
         setText(event.target.value)
     }
-
-
     const [text, setText] = useState('');
 
     return (
